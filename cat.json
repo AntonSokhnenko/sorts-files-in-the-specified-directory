@@ -1,0 +1,8 @@
+{
+    "images":[".jpeg", ".png", ".jpg", "svg"],
+    "video":[".avi", ".mp4", ".mov", ".mkv"],
+    "documents":[".doc", ".docx", ".txt", ".pdf", ".xlsx", ".pptx", ".ods", ".odt"],
+    "music":[".mp3", ".ogg", ".wav", ".amr"],
+    "archives":[".zip", ".gz", ".tar", ".rar", ".deb"],
+    "python": [".py", ".pyw"]
+}
