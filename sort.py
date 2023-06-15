@@ -1,22 +1,3 @@
-
-def normalize(file: str) -> str: #змінює назву файлу
-
-
-
-
-    CYRILLIC_SYMBOLS = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяєіїґ?<>,!@#[]#$%^&*()-=; "
-    LAT_SYMBOLS = ("a", "b", "v", "g", "d", "e", "e", "j", "z", "i", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t",
-               "u","f", "h", "ts", "ch", "sh", "sch", "", "y", "", "e", "yu", "ya", "je", "i", "ji", "g", "_", "_" ,
-               "_", "_", "_", "_","_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_")
-    TRANS = {}
-    for c, l in zip(CYRILLIC_SYMBOLS, LAT_SYMBOLS):
-        TRANS[ord(c)] = l
-        TRANS[ord(c.upper())] = l.upper()
-
-    return file.translate(TRANS)
-
-
-#############
 import json
 import shutil
 import json
